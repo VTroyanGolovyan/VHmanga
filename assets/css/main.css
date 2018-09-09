@@ -1,0 +1,113 @@
+main{
+  margin-top: 45px;
+  margin-left: calc(20% + 0px);
+  width:calc(60% - 8px);
+  display: flex;
+  padding: 8px 0px 4px 4px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+textarea{
+  width: 100%;
+  outline: none;
+  max-width: 100%;
+  min-width: 100%;
+  background: #010102;
+  border: solid 1px#2ebaa2;
+  color: white;
+  min-height:200px;
+}
+.addmangaButton{
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+#addmanga{
+  display: none;
+}
+.mangaDiv{
+  width:calc(20% - 16px);
+  overflow: hidden;
+  background: #32383f;
+  border-radius: 3px;
+  padding: 4px;
+  margin:0 4px 8px 4px;
+}
+.addMangaDiv{
+  width:calc(100% - 16px);
+  overflow: hidden;
+  background: #32383f;
+  border-radius: 3px;
+  padding: 4px;
+  margin:0 4px 8px 4px;
+}
+
+.typeList,.typeList2 div{
+  text-align: center;
+  background: #32383f;
+  border-radius: 3px;
+  padding: 4px;
+}
+.typeList,.typeList2 a{
+  width: calc(50% - 4px);
+  overflow: hidden;
+}
+.typeList{
+  width:calc(100% - 8px);
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  margin:0px 4px 8px 4px;
+}
+.typeList2{
+  width: calc(70% + 16px);
+  display: flex;
+  justify-content: space-between;
+  margin:0 4px 8px 4px;
+}
+.mangaImage{
+  width: 100%;
+  border-radius: 3px;
+  opacity: 0.9;
+}
+.mangaTitle{
+  text-align: center;
+  color: #efefef;
+  text-overflow: ellipsis;
+  padding: 0 4px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.pageList{
+  display: flex;
+  width: calc(100% - 8px);
+  overflow: hidden;
+
+  border-radius: 3px;
+  margin:0 4px 4px 4px;
+}
+.pageList div{
+  width: 40px;
+  height: 20px;
+  color: white;
+  background: #32383f;
+  text-align: center;
+  border-radius: 3px;
+  padding: 4px;
+  margin-right: 4px;
+}
+.hello, .aboutChaptersList{
+  text-align: center;
+  color:#2ebaa2;
+}
+.p404{
+  color: white;
+  font-size: 100px;
+  text-align: center;
+}
+.mangaAllCntainer{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-start;
+}

@@ -1,0 +1,46 @@
+.msgList,.dialogList{
+   width:calc(100% - 4px);
+   margin-bottom: 60px;
+}
+.message{
+  background:  #32383f;
+  border-radius: 3px;
+  margin-bottom: 4px;
+  padding: 8px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.sendmsgForm{
+  position: fixed;
+  bottom: 0;
+
+  width: calc(60% - 6px);
+  background: #32383f;
+}
+.senderName,.messageText{
+  color: white;
+  padding: 4px;
+}
+.messageWrite{
+  min-width: calc(70% - 18px);
+  max-width: calc(70% - 18px);
+  min-height: 40px;
+  max-height: 40px;
+  padding: 8px;
+  vertical-align: top;
+
+}
+.submitMsg{
+  width: 30%;
+  border: none;
+  outline: none;
+  background:#2ebaa2;
+  padding: 0;
+  margin: 0;
+  height: 60px;
+  color: white;
+  text-align: center;
+  vertical-align: top;
+  cursor: pointer;
+}

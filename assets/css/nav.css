@@ -1,0 +1,37 @@
+nav{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  align-items: flex-start;
+  top:45px;
+  width: calc(20% - 40px);
+  padding-left: 40px;
+  height: calc(100% - 45px);
+  transition: all 0.8s;
+  background: #262c33;
+}
+nav a{
+  height: 46px;
+}
+.navItem{
+  height: 30px;
+  color: white;
+  padding: 8px 8px;
+  display: flex;
+}
+.navItem img{
+  width: 30px;
+  height: 30px;
+}
+.navItem span{
+  padding-left: 16px;
+  line-height: 30px;
+  font-size: 18px;
+  color: white;
+}
+.mobile{
+  display: none;
+}
+.tablet{
+  display: none;
+}

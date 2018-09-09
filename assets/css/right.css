@@ -1,0 +1,145 @@
+.rightSection, .rightAuth{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 0;
+  top:45px;
+  background: #262c33;
+  transition: all 0.8s;
+  width:20%;
+  padding: 8px 0px 0 0px;
+}
+#toggleSearch{
+  display: none;
+}
+.elementSearch{
+  border-radius: 3px;
+  margin-bottom: 8px;
+  padding: 4px;
+}
+.searchform{
+  display: flex;
+  padding-bottom: 8px;
+}
+.input{
+  width:65%;
+  outline: none;
+  border:none;
+  background: #262c33;
+  border-bottom: solid 1px #2ebaa2;
+    color: white;
+    height: 30px;
+}
+.comentinput{
+  width:65%;
+  outline: none;
+  border:none;
+  background:none;
+  border-bottom: solid 1px #2ebaa2;
+    color: white;
+    height: 30px;
+}
+.blockinput,.blockinputLight{
+  width:calc(100% - 4px);
+  outline: none;
+  border:none;
+  font-size: 16px;
+  border-bottom: solid 1px  #2ebaa2;
+  color: white;
+  margin: 0 0 16px 0;
+  height: 30px;
+}
+.blockinput{
+  background: #262c33;
+}
+.blockinputLight{
+  background: none;
+}
+.blocksubmit{
+  width:calc(100% - 4px);
+  background:  #2ebaa2;
+  padding:4px;
+  margin: 0 0 0 4px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+    margin: 0 0 8px 0;
+    height: 30px;
+}
+.submit{
+  width:calc(35% - 12px);
+  background:  #2ebaa2;
+  padding:4px;
+  margin: 0 0 0 4px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  height: 30px;
+
+}
+.hello{
+  margin-bottom: 8px;
+}
+.ganreItem{
+  height: 30px;
+  color: white;
+  padding: 8px 8px 0 8px;
+  display: flex;
+  flex-direction: row;
+}
+.ganreItem img{
+  width: 24px;
+  height: 24px;
+}
+.ganreItem div{
+  padding-left: 16px;
+  line-height: 24px;
+  font-size: 18px;
+  color:white;
+  text-align: center;
+}
+.rightAuth{
+  background: #262c33;
+  height: 100%;
+}
+.avtorizationTitle{
+  color:  #2ebaa2;
+  text-align: center;
+}
+.elementSearch{
+  color: white;
+}
+.mobileForm{
+  display: none;
+}
+.mobileForm  .blockinput{
+  background: #32383f;
+}
+.genres{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.ganreItemRow{
+  width: calc(25% - 8px);
+  background: #32383f;
+  border-radius: 3px;
+  margin: 0 4px 8px 4px;
+}
+.genreImage{
+  width: calc(100% - 16px);
+  padding: 0 8px 4px 8px;
+  overflow: hidden;
+
+}
+.genreImage img{
+  width: 100%;
+  border-radius: 3px;
+  opacity: 0.8;
+}

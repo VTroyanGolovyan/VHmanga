@@ -1,0 +1,34 @@
+.mangaContainer{
+    background: #32383f;
+    border-radius: 3px;
+    display: block;
+    padding: 8px;
+    width: 70%;
+}
+.mangaPages{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   align-items: center;
+}
+.mangaPageImg{
+  width: 100%;
+}
+.mangaPageImg img{
+  width: 100%;
+}
+.danger{
+  width: 100%;
+    background: #32383f;
+    padding: 4px 0;
+    border-radius: 3px;
+    margin: 0 4px 4px 4px;
+      flex-direction: column;
+}
+.dangerList{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}

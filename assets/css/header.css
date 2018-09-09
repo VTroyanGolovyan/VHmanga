@@ -1,0 +1,101 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+a{
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-decoration: none;
+}
+body{
+  padding: 0;
+  margin: 0;
+  background: #131516;
+}
+#toggle{
+   display: none;
+}
+.header{
+  width: 100%;
+  display: flex;
+  position: fixed;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  top: 0;
+  left: 0;
+  height: 45px;
+  background: #262c33;
+  z-index: 100;
+}
+.leftHeaderGroup{
+  width: 80%;
+  display: inline-flex;
+}
+.logo{
+  background: #2ebaa2;
+  width: calc(25% - 45px);
+  color: white;
+  font-size: 24px;
+  line-height:45px;
+  padding-left: 45px;
+  display: flex;
+
+}
+.logo span{
+  padding-top: 0px;
+}
+.logoImage{
+  width:35px;
+  height: 35px;
+  margin:5px 5px 8px 0;
+}
+/*
+.logo::after{
+  display: block;
+  content: "";
+  width: 0;
+  height: 0;
+  border-color: rgba(255, 255, 255, 0);
+  border-style: solid;
+  border-width: 50px 50px;
+  border-bottom-color: #32383f;
+  position: absolute;
+  bottom: 100%;
+  left:276px;
+  margin-bottom: -50px;
+}
+*/
+.rightHeaderGroup{
+  width:20%;
+  display: inline-flex;
+}
+.rightHeaderButton{
+  background: #2ebaa2;
+  color: white;
+  text-align: center;
+  line-height: 45px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.mobileMenuOpener{
+  display: none;
+}
+.mobileMenuOpenerLabel{
+  position: relative;
+  display: flex;
+  width: 35px;
+  height: 35px;
+}
+.closeM{
+    transition: opacity 0.8s;
+  opacity: 0;
+}
+.mobileMenuOpenerLabel img{
+ height: 35px;
+ width: 35px;
+ position: absolute;
+}
+.openM{
+  transition: opacity 0.8s;
+  opacity: 1;
+}

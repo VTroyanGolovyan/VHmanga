@@ -1,0 +1,100 @@
+.mangaBigImage{
+  padding: 4px;
+  border-radius: 3px;
+  width:calc(30% - 16px);
+  background: #32383f;
+  margin: 0 4px;
+  margin-bottom:8px;
+ }
+ .coment{
+   display: flex;
+   padding: 8px 0 0 0;
+ }
+.mangaBigImage img{
+   width: 100%;
+}
+.mangaInfo{
+   width:calc(70% - 4px);
+   margin-right: 4px;
+}
+.mangaBigName{
+   background:  #32383f;
+   border-radius: : 3px;
+   color:#2ebaa2;
+   text-align: center;
+   font-size: 18px;
+   padding: 4px 0;
+   border-radius: 3px;
+     margin-bottom:8px;
+     z-index: 20;
+}
+.chaptersList{
+   background:  #32383f;
+  border-radius: 3px;
+  margin-bottom: 8px;
+}
+.chapterHref{
+  display: flex;
+}
+.chapterNumber{
+  width: 20%;
+  padding: 4px 0;
+}
+.chapterName{
+  width: calc(80% - 8px);
+  padding: 4px 0px 4px 8px;
+}
+.chaptersList{
+  color: white;
+  padding: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.miniAvatar{
+  width:50px;
+  height:50px;
+  overflow: hidden;
+  border-radius: 3px;
+}
+.miniAvatar img{
+  width: 100%;
+}
+.comentContent{
+  padding: 0 0 0 4px;
+}
+.interesting{
+  width: calc(100% - 12px);
+  padding: 8px 0;
+  background:  #32383f;
+  margin: 0 4px 8px 8px;
+  border-radius: 3px;
+  text-align: center;
+  color: white;
+}
+.interestingManga{
+  width: calc(100% - 6px);
+  display: flex;
+  margin: 0 0px 8px 4px;
+}
+#list{
+
+  overflow: hidden;
+  transition: all 0.8s;
+  z-index: 0;
+  height:90px;
+}
+#openList{
+  display: none;
+}
+#openList:checked  ~ #list {
+  height: auto;
+  transition: all 0.8s;
+  margin-top: 0;
+
+}
+.openListLabel{
+  z-index: 30;
+  cursor: pointer;
+  text-align: center;
+}

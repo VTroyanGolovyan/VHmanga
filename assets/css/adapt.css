@@ -1,0 +1,271 @@
+@media all and (max-width:980px) {
+
+  .rightSection{
+    left:100%;
+  }
+  nav{
+    left:-100%;
+  }
+  main{
+    width:100%;
+    margin-left: 0;
+  }
+  .rightHeaderGroup{
+    display: none;
+  }
+  .mobileMenuOpener{
+    display:block;
+  }
+  .mobileForm{
+    display: block;
+  }
+  .blockinput{
+    height: 25px;
+    margin: 16px 0 0 0;
+  }
+  .aboutLogin{
+    background: intherit;
+  }
+  .rightAuth{
+    display: none;
+  }
+  #slides{
+    display: none;
+  }
+  .leftHeaderGroup{
+    width: 100%;
+  }
+  .logo{
+    background:#2ebaa2;
+    width: calc(100% - 8px);
+    color: white;
+    font-size: 25px;
+    line-height:40px;
+    padding-left: 8px;
+    display: flex;
+
+  }
+  .logo span{
+    padding-top: 2px;
+  }
+  #toggle:checked ~ nav {
+      left:0;
+      z-index: 100;
+      background: #010102;
+      width: 50%;
+      padding-left: 0;
+      height: calc(100% - 45px);
+      transition: all 0.8s;
+      align-items: flex-start;
+    }
+    #toggle:checked ~ header .closeM{
+      opacity: 1;
+    }
+    #toggle:checked ~ header .openM{
+      opacity: 0;
+    }
+    .sendmsgForm{
+      width: 100%;
+    }
+  .blockinput{
+      margin-bottom: 16px;
+      height: 30px;
+    }
+  .blocksubmit{
+      height: 30px;
+  }
+  .mobile{
+    display: block;
+  }
+  #toggleSearch:checked  ~ .rightSection{
+    left:50%;
+    z-index: 100;
+    background: #010102;
+    width: 50%;
+    padding-left: 0;
+    transition: all 0.8s;
+    align-items: flex-start;
+
+  }
+  #toggleSearch:checked  ~ .rightSection div{
+    opacity: 1;
+    transition: all 0.8s;
+  }
+  .rightSection div{
+    opacity: 0;
+    transition: all 0.8s;
+  }
+  .rightSection{
+    width:100%;
+    height: calc(100% - 45px);
+  }
+  .elementSearch{
+    width: 100%;
+  }
+  nav{
+     height: calc(100% - 45px);
+
+  }
+  nav a{
+    height: 45px;
+  }
+  .navItem span{
+    text-align: center;
+    width: calc(100% - 45px);
+  }
+  .mangaContainer{
+      width: 100%;
+
+  }
+  .mobileMenuOpener{
+    width: 45px;
+    height: 45px;
+    padding: 5px;
+  }
+  .mobileMenuOpener img{
+    width:35px;
+    height: 35px;
+  }
+  .mangaDiv{
+    width: calc(50% - 16px);
+  }
+  .mangaImageContainer{
+    width: 100%;
+    border-radius: 3px;
+    overflow: hidden;
+    margin: auto;
+  }
+  .mangaBigImage{
+    width: 100%;
+  }
+  .mangaInfo{
+    width:calc(100% - 16px);
+    margin: 8px;
+  }
+  .mangaPages{
+    width:calc(100% - 16px);
+    margin: 8px;
+  }
+  .newsImg{
+    width: calc(100% - 8px);
+  }
+  .newsText{
+    width: calc(100% - 16px);
+    padding: 0 8px;
+  }
+  .interestingManga{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-start;
+    flex-wrap: wrap;
+    width: calc(100% - 8px);
+  }
+  .interesting{
+    width: calc(100% - 16px);
+  }
+  .mangaTitle{
+    font-size: 14px;
+  }
+  .avatar{
+    width: calc(100% - 24px);
+    margin: 0 4px 8px 4px;
+  }
+  .userName{
+    width: calc(100% - 24px);
+    margin: 0 4px 8px 4px;
+  }
+  .rightAuth{
+      transition: all 0.8s;
+  }
+  .elementSearch, .hello, .ganreItem{
+    background: rgba(0,0,0,0);
+    transition: all 0.8s;
+  }
+  main{
+
+    padding: 4px 0px 8px 0px;
+  }
+  .input{
+    background: black;
+  }
+}
+@media all and (max-width:480px){
+  .ganreItemRow{
+    width: calc(50% - 8px);
+  }
+  .typeList2{
+    width:100%;
+  }
+  #toggle:checked ~ nav {
+      left:0;
+      z-index: 100;
+      background: #010102;
+      width: 100%;
+      padding-left: 0;
+      height: calc(100% - 45px);
+      transition: all 0.8s;
+      align-items: flex-start;
+    }
+    #toggleSearch:checked  ~ .rightSection{
+      left:0%;
+      z-index: 100;
+      background: #010102;
+      width: 100%;
+      padding-left: 0;
+      transition: all 0.8s;
+      align-items: flex-start;
+
+    }
+
+}
+@media all and (min-width:480px) and (max-width:980px){
+  .ganreItemRow{
+    width: calc(33.3333% - 8px);
+  }
+   .tablet{
+     display: flex;
+     flex-direction: column;
+     position: fixed;
+     left:0;
+     top:45px;
+     background: #1c1e21;
+     z-index: 500;
+     height: calc(100% - 45px);
+   }
+   .tablet a{
+     height:45px;
+   }
+   main{
+     width:calc(100% - 45px);
+     margin-left: 45px;
+       padding: 4px 0px 8px 0px;
+   }
+   .mangaDiv{
+     width: calc(33.333% - 16px);
+   }
+   .mangaBigImage{
+     width: 25%;
+   }
+   .mangaInfo{
+     width:calc(75% - 32px);
+     margin: 0px;
+   }
+   .mangaPages{
+     width:calc(75% - 32px);
+     margin: 0px;
+   }
+}
+@media all and (min-width:680px) and (max-width:980px){
+  .mangaDiv{
+    width: calc(25% - 16px);
+  }
+
+}
+@media all and (min-width:800px) and (max-width:980px){
+  .mangaDiv{
+    width: calc(20% - 16px);
+  }
+}
+.rightSection{
+  height: 100%;
+}

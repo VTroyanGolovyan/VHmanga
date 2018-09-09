@@ -1,0 +1,10 @@
+content/avatars/*
+!content/avatars/.gitkeep
+content/mangaimgs/*
+!content/mangaimgs/.gitkeep
+content/manga/*
+!content/manga/.gitkeep
+content/news/*
+!content/news/.gitkeep
+content/tmp/*
+!content/tmp/.gitkeep

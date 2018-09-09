@@ -1,0 +1,35 @@
+.newsDiv{
+    background: #32383f;
+    border-radius: 3px;
+    margin: 0 4px 8px 4px;
+    width: 100%;
+}
+.newsTitle h3{
+  padding: 8px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 18px;
+  margin: 0;
+  color: white;
+}
+.newsContent{
+  display: flex;
+  color: white;
+}
+.newsContent div{
+  overflow: hidden;
+
+}
+.newsImg{
+  width: calc(40% - 8px);
+  padding: 0 4px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.newsImg img{
+  width: 100%;
+}
+.newsText{
+  width: calc(60% - 16px);
+  padding: 0 8px;
+}

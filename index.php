@@ -107,5 +107,6 @@
     <script src = "assets/js/openbox.js"></script>
     <script src = "assets/js/imgbox.js"></script>
     <?php include_once('panels/imgbox.php'); ?>
+    <div></div>
   </body>
 </html>
